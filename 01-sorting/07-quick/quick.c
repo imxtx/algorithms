@@ -25,7 +25,13 @@ int partition(int arr[], int low, int high)
     return i;
 }
 
-// 快速排序
+/**
+ * @brief 递归划分
+ *
+ * @param arr 数字
+ * @param low 左边界下标
+ * @param high 右边界下标
+ */
 void qsort(int arr[], int low, int high)
 {
     if (low < high)
@@ -36,10 +42,15 @@ void qsort(int arr[], int low, int high)
     }
 }
 
-// 快速排序入口
-void quick_sort(int arr[], int n)
+/**
+ * @brief 快速排序入口
+ *
+ * @param arr 数组
+ * @param len 长度
+ */
+void quick_sort(int arr[], int len)
 {
-    qsort(arr, 0, n - 1);
+    qsort(arr, 0, len - 1);
 }
 
 int main(int argc, char const *argv[])
