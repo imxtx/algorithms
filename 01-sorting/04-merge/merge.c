@@ -60,16 +60,9 @@ void msort(int arr[], int tempArr[], int left, int right)
 void merge_sort(int arr[], int n)
 {
     // 分配一个辅助数组
-    int *tempArr = (int *)malloc(n * sizeof(int));
-    if (tempArr)  // 辅助数组分配成功
-    {
-        msort(arr, tempArr, 0, n - 1);
-        free(tempArr);
-    }
-    else
-    {
-        printf("error: failed to allocate memory");
-    }
+    int tempArr[n];
+    // 调用实际的归并排序
+    msort(arr, tempArr, 0, n - 1);
 }
 
 int main(int argc, char const *argv[])
