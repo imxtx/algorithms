@@ -9,12 +9,16 @@
 |01-03 冒泡排序|[B站](https://www.bilibili.com/video/BV1Hg4y1q7tz/)|10:43|[bubble.c](https://github.com/imxtx/algorithms/blob/main/01-sorting/03-bubble/bubble.c)|2021-11-11|
 |01-04 归并排序|[B站](https://www.bilibili.com/video/BV1Pt4y197VZ/)|24:40|[merge.c](https://github.com/imxtx/algorithms/blob/main/01-sorting/04-merge/merge.c)|2020-06-13|
 |01-05 堆排序|[B站](https://www.bilibili.com/video/BV1fp4y1D7cj/)|19:55|[heap.c](https://github.com/imxtx/algorithms/blob/main/01-sorting/05-heap/heap.c)|2021-11-11|
-|01-06 快速排序|||[quick.c](https://github.com/imxtx/algorithms/blob/main/01-sorting/06-quick/quick.c)|2021-11-11|
+|01-06 快速排序|[B站](https://www.bilibili.com/video/BV1WF41187Bp/)|14:05|[quick.c](https://github.com/imxtx/algorithms/blob/main/01-sorting/06-quick/quick.c)|2021-12-02|
 |01-07 希尔排序|[B站](https://www.bilibili.com/video/BV1BK4y1478X/)|15:47|[shell.c](https://github.com/imxtx/algorithms/blob/main/01-sorting/07-shell/shell.c)|2021-11-11|
 |01-08 计数排序|||||
 |01-09 基数排序|||||
 |01-10 桶排序|||||
 |01-11 外部排序|||||
+
+## 二叉树
+
+## 图
 
 ## 数组
 
