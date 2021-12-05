@@ -1,4 +1,5 @@
 #include <iostream>
+#include <queue>
 #include <stack>
 
 #include "../utils.h"
@@ -96,6 +97,29 @@ void postOrderIterative(treeNode *root)
     }
 }
 
+/**
+ * @brief 层次遍历
+ *
+ * @param root
+ */
+void levelOrder(treeNode *root)
+{
+    if (NULL == root) return;  // 空树
+
+    queue<treeNode *> nodeQueue;  // 创建一个队列保存节点
+    nodeQueue.push(root);         // 将根节点入队
+
+    // 队非空时进行访问
+    while (!nodeQueue.empty())
+    {
+        treeNode *node = nodeQueue.front();            // 取头结点
+        printf("%d ", node->data);                     // 访问节点数据
+        if (node->left) nodeQueue.push(node->left);    // 左子节点入队
+        if (node->right) nodeQueue.push(node->right);  // 右子节点入队
+        nodeQueue.pop();                               // 头结点出队
+    }
+}
+
 // 测试函数是否工作正常
 void test()
 {
@@ -105,7 +129,7 @@ void test()
     int len = NELEMS(arr);
     treeNode *root = createTreeFromArray(arr, len);
 
-    // 测试三种遍历方法
+    // 测试4种遍历方法
     printf("先序：");
     preOrderIterative(root);
     putchar('\n');
@@ -116,6 +140,10 @@ void test()
 
     printf("后序：");
     postOrderIterative(root);
+    putchar('\n');
+
+    printf("层次：");
+    levelOrder(root);
     putchar('\n');
 }
 
