@@ -18,6 +18,15 @@
 
 ## 二叉树
 
+|内容|视频|时长|代码|更新日期|
+|---|---|---|---|---|
+|06-01 二叉树的先、中、后序遍历【递归版本】|[B站](https://www.bilibili.com/video/BV1CQ4y1e7av)|12:32|[traversal_recursive.c](https://github.com/imxtx/algorithms/blob/main/06-binary_tree/01-traversal/traversal_recursive.c)|2021-12-04|
+|06-02 二叉树的先序遍历【非递归版本】|[B站](https://www.bilibili.com/video/BV1QM4y1w7YS)|09:55|[traversal_iterative.cpp](https://github.com/imxtx/algorithms/blob/main/06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
+|06-03 二叉树的中序遍历【非递归版本】|[B站](https://www.bilibili.com/video/BV1hi4y1Z7Ku)|14:25|[traversal_iterative.cpp](https://github.com/imxtx/algorithms/blob/main/06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
+|06-04 二叉树的后序遍历【非递归版本】|[B站](https://www.bilibili.com/video/BV18i4y1Z7am)|12:38|[traversal_iterative.cpp](https://github.com/imxtx/algorithms/blob/main/06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
+|06-05 二叉树的层次遍历|[B站](https://www.bilibili.com/video/BV1sR4y1s7kB)|04:56|[traversal_iterative.cpp](https://github.com/imxtx/algorithms/blob/main/06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
+
+
 ## 图
 
 ## 数组
