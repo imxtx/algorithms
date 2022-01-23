@@ -27,7 +27,7 @@
 |06-03 二叉树的中序遍历【非递归版本】|[B站](https://www.bilibili.com/video/BV1hi4y1Z7Ku)|14:25|[traversal_iterative.cpp](./06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
 |06-04 二叉树的后序遍历【非递归版本】|[B站](https://www.bilibili.com/video/BV18i4y1Z7am)|12:38|[traversal_iterative.cpp](./06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
 |06-05 二叉树的层次遍历|[B站](https://www.bilibili.com/video/BV1sR4y1s7kB)|04:56|[traversal_iterative.cpp](./06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
-|06-06 二叉树的数组表示|[B站](https://www.bilibili.com/video/BV1im4y1S7Sb)|09:30|[traversal_iterative.cpp](./06-binary_tree/utils.c)|2022-01-23|
+|06-06 二叉树的数组表示|[B站](https://www.bilibili.com/video/BV1im4y1S7Sb)|09:30|[utils.c](https://github.com/imxtx/algorithms/blob/30335d60cefa36fb890cbb16bb1df67c6c2eb0c9/06-binary_tree/utils.c#L6-L59)|2022-01-23|
 
 ## 图
 
