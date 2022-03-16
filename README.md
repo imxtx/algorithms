@@ -28,7 +28,6 @@
 |06-04 二叉树的后序遍历【非递归版本】|[B站](https://www.bilibili.com/video/BV18i4y1Z7am)|12:38|[traversal_iterative.cpp](./06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
 |06-05 二叉树的层次遍历|[B站](https://www.bilibili.com/video/BV1sR4y1s7kB)|04:56|[traversal_iterative.cpp](./06-binary_tree/01-traversal/traversal_iterative.cpp)|2021-12-04|
 
-
 ## 图
 
 ## 数组
@@ -38,3 +37,9 @@
 ## 栈
 
 ## 队列
+
+## 查找
+
+|内容|视频|时长|代码|更新日期|
+|---|---|---|---|---|
+|01 二分查找|[B站]()||[binary_search.c](/07-search/binary_search.c)|2022-03-16|
