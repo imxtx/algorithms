@@ -43,4 +43,4 @@
 
 |内容|视频|时长|代码|更新日期|
 |---|---|---|---|---|
-|01 二分查找|[B站]()||[binary_search.c](/07-search/binary_search.c)|2022-03-16|
+|01 二分查找|[B站](https://www.bilibili.com/video/BV1RP4y1M7kk)|12:40|[binary_search.c](/07-search/binary_search.c)|2022-03-16|
