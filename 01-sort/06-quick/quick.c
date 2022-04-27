@@ -12,17 +12,17 @@
 int partition(int arr[], int low, int high)
 {
     int pivot = arr[high];
-    int i = low;
+    int i = low - 1;
 
     for (int j = low; j < high; j++)
     {
         // 比pivot小的，全部换到前面去
-        if (arr[j] < pivot)
-            swap(&arr[j], &arr[i++]);
+        if (arr[j] <= pivot)
+            swap(&arr[j], &arr[++i]);
     }
     // 此时，i指向的元素一定大于等于pivot
-    swap(&arr[high], &arr[i]);
-    return i;
+    swap(&arr[high], &arr[i+1]);
+    return i+1;
 }
 
 /**
