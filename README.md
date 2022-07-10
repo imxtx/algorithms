@@ -32,4 +32,4 @@
 |---|---|---|---|---|
 |二分查找|[B站](https://www.bilibili.com/video/BV1RP4y1M7kk)|12:40|[binary_search.c](/07-search/binary_search.c)|2022-03-16|
 |二叉搜索树|[B站](https://www.bilibili.com/video/BV1yB4y1v792)|14:40||2022-07-01|
-|AVL树|[B站](https://www.bilibili.com/video/BV1QG411H7XY)|21:33||2022-07-10|
+|AVL树|[B站](https://www.bilibili.com/video/BV1QG411H7XY)|21:33|[avl.c](/07-search/avl.c)|2022-07-10|
