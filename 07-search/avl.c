@@ -125,7 +125,7 @@ Node *insert(Node *node, int key)
         return rightRotate(node);
     }
     // RL型不平衡
-    if (bf < -1 && key > node->left->key)
+    if (bf < -1 && key < node->right->key)
     {
         node->right = rightRotate(node->right);
         return leftRotate(node);
